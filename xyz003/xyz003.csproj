@@ -11,4 +11,14 @@
     <PackageReference Include="System.Diagnostics.Tools" Version="4.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Certificates\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Certificates\xyz003.pfx">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
